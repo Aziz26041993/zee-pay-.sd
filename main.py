@@ -98,12 +98,12 @@ def main(page: ft.Page):
                 alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
                 controls=[
                     ft.Row(spacing=8, controls=[
-                        ft.Container(
-                            width=42, height=42, border_radius=13,
-                            bgcolor=GREEN,
-                            alignment=ft.alignment.center,
-                            content=ft.Text("Z", size=27, color="white", weight=ft.FontWeight.BOLD)
-                        ),
+                        ft.Image(
+    src="assets/zee_logo.png",
+    width=42,
+    height=42,
+    fit=ft.ImageFit.CONTAIN,
+),
                         ft.Column(spacing=0, controls=[
                             ft.Text("ZEE PAY", size=22, weight=ft.FontWeight.BOLD, color=GREEN),
                             ft.Text("زي باي", size=12, color=MUTED)
