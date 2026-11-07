@@ -275,15 +275,12 @@ def main(page: ft.Page):
                     alignment=ft.MainAxisAlignment.CENTER,
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     spacing=15,
-                    controls=[
-                        ft.Image(
+                    controls=[ft.Image(
     src="assets/zee_logo.png",
     width=78,
     height=78,
     fit=ft.ImageFit.CONTAIN,
-), height=78, bgcolor=GREEN, border_radius=24,
-                                     alignment=ft.alignment.center,
-                                     content=ft.Text("Z", size=48, color="white",
+),
                                                      weight=ft.FontWeight.BOLD)),
                         ft.Text("ZEE PAY", size=32, color=GREEN, weight=ft.FontWeight.BOLD),
                         text("محفظتك الرقمية في السودان", 15, MUTED),
