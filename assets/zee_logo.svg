@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#078B50"/>
+  <circle cx="256" cy="220" r="130" fill="#FFFFFF"/>
+  <path d="M175 175 H337 L207 265 H337" fill="none" stroke="#078B50" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="420" font-family="Arial" font-size="65" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ZEE PAY</text>
+</svg>
