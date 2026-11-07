@@ -276,7 +276,12 @@ def main(page: ft.Page):
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     spacing=15,
                     controls=[
-                        ft.Container(width=78, height=78, bgcolor=GREEN, border_radius=24,
+                        ft.Image(
+    src="assets/zee_logo.png",
+    width=78,
+    height=78,
+    fit=ft.ImageFit.CONTAIN,
+), height=78, bgcolor=GREEN, border_radius=24,
                                      alignment=ft.alignment.center,
                                      content=ft.Text("Z", size=48, color="white",
                                                      weight=ft.FontWeight.BOLD)),
