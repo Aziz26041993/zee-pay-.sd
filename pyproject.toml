@@ -14,3 +14,7 @@ product = "ZEE PAY"
 
 [tool.flet.app]
 module = "main"
+
+[tool.flet.splash]
+color = "#FFFFFF"
+dark_color = "#FFFFFF"
